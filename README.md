@@ -1,11 +1,11 @@
 # Scope of Work (SOW)
 
 ## Project Overview
-**Name:** Healthcare System  
-**Objective:** Develop a healthcare platform to connect individuals needing healthcare with relevant services and providers.  
+**Name:** Project Name 
+**Objective:** Project Objectives / PRD  
 
 **Deliverables:**  
-1. **Mobile Apps:** Android and iOS applications for patients and providers.  
+1. **Mobile Apps:** Android and iOS applications.  
 2. **Web App:** A responsive web platform with administrative and user functionalities.  
 
 ---
@@ -18,6 +18,7 @@
 | 2  | Node.js     | Backend runtime        |
 | 3  | TypeScript  | Strongly typed JS      |
 | 4  | MongoDB     | Database               |
+| 5  | Next        | Landing Page           |
 
 ---
 
@@ -61,7 +62,7 @@
 - **Integration Testing:** Validate interaction between modules.  
 
 **Tools:**  
-- **Frontend:** React Testing Library, Jest.  
+- **Frontend:** React Testing Library, Vitest.  
 - **Backend:** Mocha, Chai, Supertest.  
 - **Mobile:** Detox or Appium for end-to-end testing.  
 
@@ -69,8 +70,8 @@
 
 ## Deployment and Scaling
 - **Containerization:** Use Docker to package and deploy applications.  
-- **CI/CD:** Automate builds, tests, and deployments using GitHub Actions or GitLab CI/CD.  
-- **Scaling:** Implement auto-scaling using Kubernetes or AWS Elastic Beanstalk.  
+- **CI/CD:** Automate builds, tests, and deployments using GitHub Actions, GitLab CI/CD or Jenkins.  
+- **Scaling:** Implement auto-scaling using Kubernetes, AWS Elastic Beanstalk or Runners.  
 
 ---
 
@@ -87,6 +88,7 @@
 | Task Tracking    | Jira  | Manage sprints, assign tasks, and track...|
 | Visualization    | Miro  | Collaborative brainstorming and mapping.  |
 | Communication    | Slack | Real-time collaboration.                  |
+| Communication    | Notion| Real-time collaboration.                  |
 
 ---
 
@@ -113,6 +115,17 @@
 **Rules:**  
 1. Pre-commit hooks run ESLint and Prettier to catch issues before pushing.  
 2. Modifications to automation configuration files are strictly prohibited.  
+
+## 📍 Collaboration and Version Control / Mono Merger:
+
+| SN  | Rule                                                                                                                                       |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1   | Git version control system for tracking changes.                                                                                           |
+| 2   | ⚠️ Developers are to create task-specific branches using their name as a prefix (e.g., lucky-admin-auth-model).                            |
+| 3   | ⚠️ The main branch is reserved for production-ready code, with all development updates merged into the dev branch .                        |
+| 4   | ⚠️ Developers must request code reviews and merging from the designated merger [Leke](https://github.com/Leyksnal) after completing tasks. |
+| 5   | ⚠️ Strict adherence to this process ensures code quality and consistency.                                                                  |
+| 6   | ⚠️ Tasks carried out outside this defined scope will be removed or left unattended to maintain project assurance.                          |
 
 ---
 
