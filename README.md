@@ -44,18 +44,6 @@
 
 ---
 
-## Collaboration and Version Control
-
-| SN | Rule                                                                 |
-|----|----------------------------------------------------------------------|
-| 1  | Use Git for version control.                                         |
-| 2  | Branch Naming Convention: Use task-specific branches prefixed...    |
-| 3  | Main Branch: Reserved for production-ready code.                    |
-| 4  | Code Reviews: Developers must request reviews and merging by Leke.  |
-| 5  | Process Adherence: Non-compliance will lead to task rejection.      |
-
----
-
 ## Testing Strategy
 - **Initial Testing:** Introduced post version 0.0.1 release.  
 - **Unit Testing:** Required for all new components and features.  
